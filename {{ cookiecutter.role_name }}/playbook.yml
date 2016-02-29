@@ -1,5 +1,6 @@
 ---
 - hosts: all
+  sudo: true
 
   roles:
     - { role: {{ cookiecutter.role_name }} } # Role name here
