@@ -1,0 +1,5 @@
+---
+- hosts: all
+
+  roles:
+    - { role: {{ cookiecutter.role_name }} } # Role name here
