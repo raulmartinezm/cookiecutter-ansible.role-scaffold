@@ -1,0 +1,13 @@
+{
+    "full_name": "",
+    "email": "",
+    "role_name": "myorganization.new-ansible-role",
+    "project_short_description": "An Ansible role",
+    "license": ["MIT", "Apache", "GPLv3", "No License"],
+    "year": "2016",
+    "min_ansible_version": "1.9",
+    "dependencies": "",
+    "categories": "system",
+    "default_memory": 512,
+    "default_cpus": 1
+}

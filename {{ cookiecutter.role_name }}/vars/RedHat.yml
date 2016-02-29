@@ -1,0 +1,10 @@
+---
+# RedHat specific variables go here. For example packages that have different names in both arquitectures.
+__packages_to_install:
+#  - service_redhat
+#  - ...
+
+#Repoid of repositories to enable for the install/update operation. 
+#These repos will not persist beyond the transaction. When specifying 
+#multiple repos, separate them with a ",".
+myrole_enablerepo: ""

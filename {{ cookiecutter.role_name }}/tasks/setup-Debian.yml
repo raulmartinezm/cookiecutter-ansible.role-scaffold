@@ -1,0 +1,12 @@
+---
+#- name: add a ppa repo, for example ondrej for apache2
+#  apt_repository: repo='ppa:ondrej/apache2'
+
+#- name: Update apt cache.
+#  apt: update_cache=yes cache_valid_time=86400
+
+- name: Install required packages # from package list defined in vars/Debian.yml
+  apt:
+    name: "{{ item }}"
+    state: installed
+  with_items: packages_to_install # the package list

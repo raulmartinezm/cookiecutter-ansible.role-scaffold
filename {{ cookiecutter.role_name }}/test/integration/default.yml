@@ -1,0 +1,9 @@
+---
+- hosts: test-kitchen
+
+# pre_tasks:
+
+  roles:
+    - { role: {{ cookiecutter.role_name }} ,tags: ["role"] }
+
+# post_tasks:

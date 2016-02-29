@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author: {{ cookiecutter.full_name }}
+  description: {{ cookiecutter.description }}
+  license: {{ cookiecutter.license }}
+  min_ansible_version: {{ cookiecutter.min_ansible_version }}
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+  - name: EL
+    versions:
+    - 7
+  categories:
+  - {{ cookiecutter.categories }}
+dependencies: [{{ cookiecutter.dependencies }}]
