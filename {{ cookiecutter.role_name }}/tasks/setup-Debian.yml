@@ -7,6 +7,6 @@
 
 - name: Install required packages # from package list defined in vars/Debian.yml
   apt:
-    name: "{{ item }}"
+    name: "{{ '{{ item }}' }}"
     state: installed
   with_items: packages_to_install # the package list

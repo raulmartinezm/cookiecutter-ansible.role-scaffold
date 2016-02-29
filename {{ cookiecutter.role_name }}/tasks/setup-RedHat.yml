@@ -1,7 +1,7 @@
 ---
 - name: Install required packages
   yum:
-    name: "{{ item }}"
+    name: "{{ '{{ item }}' }}"
     state: installed
-    enablerepo: "{{ myrole_enablerepo }}"
+    enablerepo: "{{ '{{ myrole_enablerepo }}' }}"
   with_items: packages_to_install
