@@ -4,4 +4,4 @@
     name: "{{ '{{ item }}' }}"
     state: installed
     enablerepo: "{{ '{{ myrole_enablerepo }}' }}"
-  with_items: packages_to_install
+  with_items: "{{ '{{packages_to_install}}' }}"

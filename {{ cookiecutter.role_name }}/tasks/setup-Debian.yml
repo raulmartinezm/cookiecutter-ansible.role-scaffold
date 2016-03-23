@@ -9,4 +9,4 @@
   apt:
     name: "{{ '{{ item }}' }}"
     state: installed
-  with_items: packages_to_install # the package list
+  with_items: "{{ '{{packages_to_install}}' }}" # the package list

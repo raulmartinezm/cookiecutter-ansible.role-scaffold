@@ -5,7 +5,7 @@
     "project_short_description": "An Ansible role",
     "license": ["MIT", "Apache", "GPLv3", "No License"],
     "year": "2016",
-    "min_ansible_version": "1.9",
+    "min_ansible_version": "2.0",
     "dependencies": "",
     "categories": "system",
     "default_memory": 512,
