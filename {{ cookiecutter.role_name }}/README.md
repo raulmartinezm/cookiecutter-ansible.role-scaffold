@@ -14,10 +14,24 @@
 
 ## Vagrant
 
-Vagrant should provision a box with the configuration just typing:
+Edit machine configuration in `machine_definition.yml`.
+
+Vagrant will provision a box with the configuration just typing:
 
     $ cd vagrant
-    $ vagrant up
+    $ vagrant status
+
+      Current machine states:
+
+      trusty64                  not created (virtualbox)
+      centos7                   not created (virtualbox)
+
+      This environment represents multiple VMs. The VMs are all listed
+      above with their current state. For more information about a specific
+      VM, run `vagrant status NAME`.
+
+
+    $ vagrant up trusty64
 
 ## Kitchen-Ansible
 

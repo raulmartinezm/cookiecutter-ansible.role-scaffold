@@ -1,6 +1,6 @@
 ---
 # RedHat specific variables go here. For example packages that have different names in both arquitectures.
-__packages_to_install:
+__packages_to_install: []
 #  - service_redhat
 #  - ...
 
