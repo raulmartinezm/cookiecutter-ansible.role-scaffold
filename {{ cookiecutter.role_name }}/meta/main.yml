@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: {{ cookiecutter.full_name }}
-  description: {{ cookiecutter.description }}
+  description: {{ cookiecutter.project_short_description }}
   license: {{ cookiecutter.license }}
   min_ansible_version: {{ cookiecutter.min_ansible_version }}
   platforms:
